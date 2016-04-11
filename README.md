@@ -1,10 +1,67 @@
-　　** Hexo 主题：**用了yilia主题一段时间，感觉还有很多可以提高的地方，就查阅资料，对其进行粗类的修改，但是，有其实还有很多不完善的地方，欢迎大家前捧场。
-没想到，这么多人喜欢黑色版本的，建议不是每个人都喜欢我的这些功能，所以准备个基础版本，插件可以看教程自行安装。
+## Blog of Waterstrong
 
-[GitHub Hexo搭建](http://luuman.github.io/2015/12/21/GitHub+Hexo/)   
-[SPFK Hexo使用介绍](http://luuman.github.io/2016/01/15/Hexo-Theme/)   
+Blog: <http://waterstrong.me/blog>
+
+## Installation
+
+### Install Node.js
+``` bash
+$ curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+or
+$ wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
+
+$ nvm install 5
+```
+
+### Install Hexo
+``` bash
+$ npm install -g hexo-cli
+```
+### Install Dependency
+``` bash
+$ cd blog
+$ npm install
+```
+
+## Usage
+
+### Create a new post
+
+``` bash
+$ hexo new "My New Post"
+```
+
+More info: [Writing](https://hexo.io/docs/writing.html)
+
+### Run server
+
+``` bash
+$ hexo server
+```
+
+More info: [Server](https://hexo.io/docs/server.html)
+
+### Generate static files
+
+``` bash
+$ hexo generate
+```
+
+More info: [Generating](https://hexo.io/docs/generating.html)
+
+### Deploy to remote sites
+
+``` bash
+$ hexo deploy
+```
+
+More info: [Deployment](https://hexo.io/docs/deployment.html)
 
 
-![luuman-ipad-iphone](https://raw.githubusercontent.com/luuman/luuman.github.io/master/resoures/luuman-ipad-iphone.jpg)
-![iPhone6](https://raw.githubusercontent.com/luuman/luuman.github.io/master/resoures/iPhone6-mockup.jpg)
+## License
 
+[MIT](http://opensource.org/licenses/MIT)
+
+
+----
+[Waterstrong's Blog Page](http://waterstrong.me/blog) is maintained by [Waterstrong](https://github.com/waterstrong). Powered by [Hexo](https://hexo.io/).
